@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon server/index.js",
-    "dev" : "npm start --prefix frontend"
+    "dev" : "npm start --prefix frontend",
+    "start": "npm run server" // Add this line
+
   },
   "author": "Hassan Tariq",
   "license": "ISC",
